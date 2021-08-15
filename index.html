@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script type="module" defer src="bundle.js"></script>
+</head>
+
+<body>
+    <h1> Crypto market today:</h1>
+
+    <div id="prices">
+        <h2>Cotação BRL:</h2>
+        <div class="coins">
+            <p>Bitcoin:
+            <p class="brl" id="btc-price-brl"></p>
+            </p>
+            <p>Ethereum:
+            <p class="brl" id="eth-price-brl"></p>
+            </p>
+            <p>Dollar:
+            <p class="brl" id="usd-price-brl"></p>
+            </p>
+        </div>
+
+        <h2>Cotação USD:</h2>
+        <div class="coins">
+            <p>Bitcoin:
+            <p class="usd" id="btc-price"></p>
+            </p>
+            <p>Ethereum:
+            <p class="usd" id="eth-price"></p>
+            </p>
+            <p>Dollar:
+            <p class="usd" id="usd-price"></p>
+            </p>
+        </div>
+
+    </div>
+
+
+    <div id="wallet">
+        <h2>Carteira BRL:</h2>
+        <div class="coins">
+            <p>Bitcoin:
+            <p class="brl" id="btc-wallet-brl"></p>
+            </p>
+            <p>Ethereum:
+            <p class="brl" id="eth-wallet-brl"></p>
+            </p>
+        </div>
+
+
+        <h2>Carteira USD:</h2>
+        <div class="coins">
+            <p>Bitcoin:
+            <p class="usd" id="btc-wallet-usd"></p>
+            </p>
+            <p>Ethereum:
+            <p class="usd" id="eth-wallet-usd"></p>
+            </p>
+        </div>
+    </div>
+
+    <a id="rec" class="btn">Recarregar</a>
+</body>
+
+</html>

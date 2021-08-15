@@ -1,0 +1,19 @@
+{
+  "name": "crypto-quotation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js",
+    "watch": "watchify index.js -o bundle.js"
+  },
+  "author": "FlavioZanoni",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "browserfy": "^1.0.0",
+    "dotenv": "^10.0.0",
+    "watchify": "^4.0.0"
+  }
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("./kon.jpg");
+    background-color: #1f1f1fbb;
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+    width: 30rem;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: #67FF6D;
+}
+
+p {
+    padding-right: .5rem;
+}
+.coins{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 1rem;
+}
+
+#prices {
+    background-color: #59695d96;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+}
+#wallet {
+    background-color: #59695d96;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+}
+
+.btn {
+    text-decoration: none;
+    background-color:#00FF65;
+    color: #262626;
+    margin-top: .1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    transition: .25s;
+    cursor: pointer;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.btn:hover {
+    background-color:#27D36B;
+    color: #000000;
+}
